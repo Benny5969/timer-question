@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(43, 40, 40);                  /*styling whole timer*/
+    text-decoration: none;                                /*made for desktop version(due to lack of time becoz of my mistake of seeing mail on 7th)*/
+}
+.box{
+    height: 100px;
+    width: 100%;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Aclonica';
+    color: rgba(222, 231, 169, 0.411);
+}
+
+#display{
+    font-family: 'Gotham';
+    src: url("/fonts/Gotham-Bold.eot");
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+    font-size: 70px;
+    color:ivory;
+    background-color: rgba(95, 89, 89, 0.479);
+    padding:5px 0px;
+
+    border-radius: 2%;
+}
+
+.button{
+    margin-left: 30%;
+    width: 40%;
+    margin-top:15px;
+    text-align: center;
+    background-color: rgba(95, 89, 89, 0.479);
+    padding:10px 0px;
+    justify-content: space-between;
+
+    border-radius: 2%;
+}
+
+.bt{
+    width: 140px;
+    height: 40px;
+    background-color:  rgb(43, 40, 40);
+    color: cornsilk;
+    border-width: 2px;
+    border-color: cornsilk;
+    border-radius: 5%;
+}
+
+#startstop{
+    margin-right:2.5%;
+}
+
+#pauseresume{
+    margin-left:2.5%;
+}
+
+.bt:hover{
+    background-color: rgba(43, 40, 40, 0.452);
+}
+
